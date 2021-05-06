@@ -1,0 +1,122 @@
+.h2 {
+	font-size: 1.75rem;
+}
+.hr {
+	width: 75%;
+}
+
+.p {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.span {
+	font-weight: normal;
+}
+
+.password_input {
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+/* Icons */
+
+.icon_user_wrapper {
+	width: 50%;
+}
+
+.icon_login_wrapper {
+	width: 50%;
+}
+
+.icon_payment_wrapper {
+	width: 50%;
+}
+
+.icon_edit_wrapper {
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+}
+
+.icon_wrapper {
+	display: flex;
+	margin-bottom: 0.2rem;
+}
+
+/* Profile information */
+
+.profile_information_header {
+	padding: 0.5rem 0.5rem 0 0.5rem;
+	/* padding-left: 0.5rem; */
+}
+
+.profile_information_content {
+	background: white;
+	padding: 1rem;
+	/* margin-top: 1rem;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px 1px #aaa9a988; */
+	margin: auto;
+	width: 70%;
+	box-shadow: 0 1px 5px rgb(0 0 0 / 30%), 0 1px 2px rgb(0 0 0 / 30%);
+}
+
+/* Login information */
+
+.login_information {
+	padding: 0.5rem 1rem 0.25rem 1rem;
+}
+
+.login_text {
+}
+
+/* Payment method */
+
+.payment_method {
+	padding: 1rem;
+}
+
+.payment_text {
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.payment_text_wrapper {
+	align-items: center;
+	display: flex;
+}
+
+/* Personal Information */
+
+.text_wrapper {
+	width: 50%;
+}
+
+.personal_information {
+	padding: 1rem;
+}
+
+.personal_information_text {
+	display: flex;
+	margin-top: 0.3rem;
+}
+
+@media (max-width: 576px) {
+	/* Personal Information */
+
+	.text_wrapper {
+		width: 100%;
+	}
+
+	.personal_information {
+		padding: 1rem;
+	}
+
+	.personal_information_text {
+		display: flex;
+		flex-direction: column;
+		margin-top: 0.3rem;
+	}
+}

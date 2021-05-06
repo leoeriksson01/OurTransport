@@ -1,0 +1,87 @@
+.a {
+	color: #fff;
+	cursor: pointer;
+}
+
+.a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+.hr {
+	background-color: white;
+}
+
+.button_logout {
+	background-color: #2e856e;
+	color: white;
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+.button_logout_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.button_login {
+	background-color: #2e856e;
+	border: none;
+	color: white;
+	display: block;
+	width: 100%;
+}
+
+.button_login_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.logged_in_menu {
+}
+
+.logged_out_menu {
+}
+
+/* .order_link_wrapper {
+	display: flex;
+	flex-direction: column;
+} */
+
+.register {
+	color: orange;
+}
+
+/* .registration_text {
+} */
+
+.registration_text:hover {
+	text-decoration: none;
+}
+
+.registration_text {
+	color: orange;
+	display: flex;
+	font-size: 0.75rem;
+	justify-content: space-around;
+	margin-bottom: 0;
+}
+.registration_wrapper {
+	margin-top: 8px;
+}
+
+.profile_menu_content {
+	padding: 10px;
+}
+
+.profile_menu_wrapper {
+	background-color: #353336;
+	border-radius: 5px;
+	color: white;
+	/* min-height: 200px; */
+	position: absolute;
+	right: -80px;
+	width: 200px;
+	z-index: 1;
+}

@@ -1,0 +1,97 @@
+.myOrdersContainer {
+  display: flex;
+  flex-direction: row;
+  background: #f8f8f8;
+  height: 100vh;
+}
+.ordersContent {
+  flex: 1 1 auto;
+  margin: 3em 0.5em 0 1em;
+  width: 80%;
+}
+.orderGreetingText {
+  margin: auto;
+  width: 60%;
+}
+.orderHr {
+  margin: auto;
+  width: 75%;
+}
+.orderInfoWrap {
+  margin-top: 2em;
+}
+.orderContainer {
+  display: flex;
+  justify-content: center;
+}
+.orderWrapper {
+  background: white;
+  box-shadow:0px 2px 2px #8f8e8e88;
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 70%;
+}
+.oneOrderContainer {
+  border-bottom: 2px solid #e0d8d8;
+  margin-bottom: 1.5em;
+}
+.orderImg {
+  display: inline-block;
+  width: 100%;
+}
+.orderText {
+  font-size: 0.8rem;
+}
+.orderSidebar {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .orderGreetingText {
+    width: 100%;
+  }
+  .orderHr {
+    width: 100%;
+  }
+  .orderWrapper {
+    width: 100%;
+  }
+  .oneOrderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+  }
+  .orderImg {
+    width: 30%;
+  }
+  .orderText {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .orderText p {
+    margin-right: 0.5em;
+    border-right: 1px solid #e0d8d8;
+    padding: 0.5em;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .orderGreetingText {
+    width: 60%;
+  }
+  .orderHr {
+    width: 75%;
+  }
+  .orderWrapper {
+    width: 70%;
+  }
+  .orderImg {
+    width: 20%;
+  }
+}

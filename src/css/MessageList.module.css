@@ -1,0 +1,62 @@
+.message_list {
+}
+
+/* .message {
+	margin-bottom: 0;
+}
+
+.message_container {
+	background: #f7f7f7;
+	box-shadow: 0 1px 5px rgb(0 0 0 / 30%), 0 1px 2px rgb(0 0 0 / 30%);
+	padding: 10px;
+	width: 100%;
+	max-width: 500px;
+	margin: 2rem;
+}
+
+.email {
+	margin-bottom: 0;
+}
+
+.name_status {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.name {
+	font-size: 1.4rem;
+	margin-bottom: 0.2rem;
+}
+
+.name_wrapper {
+	width: 40%;
+}
+
+.name_status_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.status {
+	display: flex;
+	justify-content: flex-end;
+	width: 45%;
+}
+
+.pending {
+	background-color: orange;
+	padding: 3px;
+	border-radius: 5px;
+	color: white;
+}
+
+@media (max-width: 704px) {
+	.name {
+		font-size: 1rem;
+	}
+	.name_status {
+		flex-direction: column;
+	}
+} */

@@ -1,0 +1,197 @@
+#slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#campaignHeader{
+    margin: 1rem;
+    color: #2E856E;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#saleColor{
+    color: red;
+}
+
+#mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#sliderContent{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    background-color: white;
+    width: 260px;
+    height: 255px;
+    overflow: hidden;
+}
+
+
+#imageContainer{
+    display: grid;
+}
+
+#sliderImage{
+    object-fit: cover;
+    width:100%;
+    max-height: 250px;
+    border-radius: 5px 5px 0 0;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#campaignPercent{
+    background-color: red;
+    opacity: 0.87;
+    padding: 0.5rem;
+    width: 90px;
+    height: 45px;
+    margin-top: 1.4rem;
+    border-radius: 0 10px 10px 0;
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+#campaignPercent p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.15rem;
+}
+
+#sliderProductInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    font-size: 0.65rem;
+    border-radius: 0 0 5px 5px;
+    color: #353336;
+}
+
+
+#boldText{
+    font-weight: bold;
+}
+
+
+#btnReadMore{
+    background-color: #2e856e;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-top: 0.5rem; 
+	margin-bottom: 1.9rem; 
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnReadMore:hover {
+    color: #fff;
+    background-color: #2e856edc;
+    border-color: #000;
+    text-decoration: none;
+}
+
+
+#arrowLeft{
+    cursor: pointer;
+    margin-right: 1rem;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+#arrowLeft:hover{
+    border: solid rgb(46, 133, 110);
+    border-width: 0 4px 4px 0;
+    transition: 0.25s;
+}
+
+
+#arrowRight{
+    cursor: pointer;
+    margin-left: 1rem;
+    border: solid rgb(255, 255, 255);
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+#arrowRight:hover{
+    border: solid rgb(46, 133, 110);
+    border-width: 0 4px 4px 0;
+    transition: 0.25s;
+}
+
+
+
+@media (min-width: 768px){
+
+    #sliderContent{
+        width: 500px;
+        height: 350px;
+        margin: 1.5rem;
+    }
+
+
+
+    #sliderImage{
+        max-height: 250px;
+    }
+   
+
+    #sliderProductInfo{
+        flex-direction: row;
+        max-width: none;
+        justify-content: space-between;
+        margin: 15px 20px 0px 20px;
+        font-size: 0.75rem;
+    }
+
+    #btnReadMore{
+        margin: 0;
+        height: 50px;
+        width: 150px;
+        font-size: 1.2rem;
+    }
+
+    #readMore{
+        font-size: 1rem;
+    }
+
+    #campaignPercent{
+        height: 45px;
+    }
+
+    #arrowLeft{
+        border-width: 0 5px 5px 0;
+        padding: 5px;
+    }
+    
+    #arrowRight{
+        border-width: 0 5px 5px 0;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}

@@ -1,0 +1,177 @@
+
+/* Filter heading*/ 
+
+.heading {
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 auto; 
+}
+
+.heading p {
+	font-size: 1.5rem;
+	margin-right: 13px;
+}
+
+/* Filter Icon*/
+.heading img {
+	margin-top: 6px;
+	height: 25px;
+	width: 20px;
+	transform: rotate(90deg);
+}
+
+/* Form Styles */
+.form {
+	display: flex;
+	flex-direction: column;
+	background: #f7f7f7;
+	margin: 0 auto; 
+}
+
+/* Label Styles */
+.form label {
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+}
+
+/* Select Styles */
+.select_wrapper {
+	position: relative;
+	background: white;
+	height: 40px;
+	margin-bottom: 0.7rem;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.select_wrapper::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 0;
+	height: 0;
+	right: 10px;
+	bottom: 0;
+	margin: auto;
+	border-style: solid;
+	border-width: 5px 5px 0 5px;
+	border-color: white transparent transparent transparent;
+	pointer-events: none;
+}
+
+.select_wrapper::before {
+	width: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	background: #d1d1cf;
+	content: "";
+	pointer-events: none;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.select_wrapper select {
+	border: none;
+	box-shadow: none;
+	background: transparent;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	outline: none;
+	padding-right: 35px;
+	padding-left: 15px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	color: #767674;
+	font-size: 0.8rem;
+}
+
+/* Input Styles */
+.form input[type="text"],
+.form input[type="number"] {
+	background: white;
+	color: #767674;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 0.7rem;
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+	padding: 6px 12px;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	font-size: 0.8rem;
+}
+
+.form input[type="number"] {
+	margin-right: 5px;
+	
+}
+
+.form input[type="text"]:focus,
+.form input[type="number"]:focus,
+.form select:focus {
+	border: none;
+	background: #ecebeb;
+}
+
+.form input[type="text"]:hover,
+.form input[type="number"]:hover,
+.form select:hover {
+	background: #ecebeb;
+}
+
+/* Year, Price and Miles Styles */
+
+.min_max_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.min_max_wrapper input {
+	width: 80%;
+}
+
+.clear_btn{
+    background-color: #2e856e;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+		margin-top: 0.5rem; 
+		margin-bottom: 0.7rem; 
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+	.active input {
+		margin-bottom: 0.7rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.heading {
+		margin-bottom: 0.5rem;
+		width: 90vw;
+	}
+
+	.form {
+		display: none;
+	}
+
+	.active {
+		display: flex;
+		width: 90vw;
+	}
+
+	.active input {
+		padding: 0.3rem;
+	}
+}

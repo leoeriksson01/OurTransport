@@ -1,0 +1,130 @@
+#formContainer {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}
+
+#contactHeading{
+    color: #2E856E;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#formContainer p {
+    color: red;
+}
+
+#contactForm{
+    background-color: #F8F8F8;
+    box-shadow: #5e34343d 0px 3px 8px;
+    padding: 2rem;
+    border-radius: 17px;
+    max-width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formInputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.6rem;
+}
+
+#formInput{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#formInputMessage{
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    height: 6rem;
+}
+
+#formInputBtn{
+    background-color: #2e856e;
+    box-shadow: #5e34343d 0px 3px 8px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 6px 12px;
+    margin-top: 0.5rem; 
+	margin-bottom: 1.9rem; 
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#successContainer{
+    background-color: #F8F8F8;
+    padding: 1rem;
+}
+
+#successDiv{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#successMessage{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #2E856E;
+    max-width: 100%;
+}
+
+#formImage{
+    max-width: 55%;
+}
+
+@media (min-width: 768px) {
+    #contactForm{
+        width: 50%;
+    }
+
+    #contactHeading{
+        font-size: 1.5rem;
+
+    }
+
+    #successMessage{
+        font-size: 1.5rem;
+        max-width: 75%;
+    }
+    
+    #formImage{
+        max-width: 30%;
+    }
+
+    #formInputBtn{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #contactForm{
+        max-width: 40%;
+    }
+
+    #successMessage{
+        font-size: 1.7rem;
+        max-width: 70%;
+    }
+    
+    #formImage{
+        max-width: 25%;
+    }
+}
+
